@@ -3945,6 +3945,25 @@
         <infoLink name="Super-Heavy Walker" id="4527-0141-f88c-7322" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink name="Dreaded Masters" id="f2d2-1038-fa43-a9ab" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="cf1a-b3bc-fe07-9fca" collective="false" targetId="3bee-8c85-68f7-e54b" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebad-6083-3252-4b9a"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="55f6-abc7-951f-dbce" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="a038-4eef-d7b0-3db3" primary="false" name="Epic Hero"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="b015-2823-0c91-4cb2" primary="false" name="Vehicle"/>
+        <categoryLink targetId="6dda-e157-334d-e93a" id="38d0-93e7-5bb1-1d38" primary="false" name="Walker"/>
+        <categoryLink targetId="5929-ad51-d006-e008" id="8c2e-7cdc-ccaa-6828" primary="false" name="Titanic"/>
+        <categoryLink targetId="d666-e2c9-b6cc-5716" id="4d94-016e-c5ef-9139" primary="false" name="Towering"/>
+        <categoryLink targetId="bb67-f191-6562-acc7" id="b175-d6fb-a4d4-a55f" primary="false" name="Faction: Chaos Knights"/>
+        <categoryLink targetId="5c0e-4c31-d51b-e470" id="209c-b66b-9ac0-fd71" primary="false" name="Warlord"/>
+        <categoryLink targetId="9c0e-7e25-4580-e439" id="2396-6847-fc10-d615" primary="false" name="Daemon"/>
+        <categoryLink targetId="af4c-b971-a31c-669c" id="0d87-7d9c-7cf4-c879" primary="false" name="Dominus"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
