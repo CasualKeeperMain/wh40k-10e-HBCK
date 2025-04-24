@@ -3962,8 +3962,8 @@
         <categoryLink targetId="d666-e2c9-b6cc-5716" id="4d94-016e-c5ef-9139" primary="false" name="Towering"/>
         <categoryLink targetId="bb67-f191-6562-acc7" id="b175-d6fb-a4d4-a55f" primary="false" name="Faction: Chaos Knights"/>
         <categoryLink targetId="5c0e-4c31-d51b-e470" id="209c-b66b-9ac0-fd71" primary="false" name="Warlord"/>
-        <categoryLink targetId="9c0e-7e25-4580-e439" id="2396-6847-fc10-d615" primary="false" name="Daemon"/>
-        <categoryLink targetId="af4c-b971-a31c-669c" id="0d87-7d9c-7cf4-c879" primary="false" name="Dominus"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="7ef0-5804-a0df-6acd" primary="false" name="Chaos"/>
+        <categoryLink targetId="552f-2667-65a7-f914" id="8b3c-7248-4ad5-a6f8" primary="false" name="Knight Tyrant"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
