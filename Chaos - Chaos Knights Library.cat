@@ -108,6 +108,28 @@
     <categoryEntry id="bacd-8441-eba2-f27" name="Knight Magaera" hidden="false"/>
     <categoryEntry id="c220-ff0a-f567-33ec" name="Knight Styrix" hidden="false"/>
     <categoryEntry id="47a1-f548-3346-b0df" name="Moirax" hidden="false"/>
+    <categoryEntry name="Skolas, The Abominable King" id="58b8-7bd6-ef9e-c8bd" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2c7c-ec67-e767-7312" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="2c7c-ec67-e767-7312">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="forces" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="2c7c-ec67-e767-7312">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="99dc-0f47-85e2-75da" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f2d9-b5e8-4183-cb0b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink id="89b5-60c6-7bb6-d021" name="Chaos Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="e289-ad32-c78a-e055" type="selectionEntry"/>
@@ -3965,6 +3987,23 @@
         <categoryLink targetId="4c00-2578-faf5-6918" id="7ef0-5804-a0df-6acd" primary="false" name="Chaos"/>
         <categoryLink targetId="552f-2667-65a7-f914" id="8b3c-7248-4ad5-a6f8" primary="false" name="Knight Tyrant"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="aeb4-96de-7401-eaa3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
