@@ -3954,7 +3954,7 @@
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="55f6-abc7-951f-dbce" primary="false" name="Character"/>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="a038-4eef-d7b0-3db3" primary="false" name="Epic Hero"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="a038-4eef-d7b0-3db3" primary="true" name="Epic Hero"/>
         <categoryLink targetId="dbd4-63-af05-998" id="b015-2823-0c91-4cb2" primary="false" name="Vehicle"/>
         <categoryLink targetId="6dda-e157-334d-e93a" id="38d0-93e7-5bb1-1d38" primary="false" name="Walker"/>
         <categoryLink targetId="5929-ad51-d006-e008" id="8c2e-7cdc-ccaa-6828" primary="false" name="Titanic"/>
