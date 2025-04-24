@@ -3783,8 +3783,9 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Skolas, The Abominable King" hidden="false" id="d97f-bcb8-2942-1276">
-      <comment>Model </comment>
+    <selectionEntry type="model" import="true" name="Skolas, The Abominable King" hidden="false" id="d97f-bcb8-2942-1276">
+      <comment>
+</comment>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Lance of The King" hidden="false" id="b611-b6c2-9eec-6b14">
           <profiles>
