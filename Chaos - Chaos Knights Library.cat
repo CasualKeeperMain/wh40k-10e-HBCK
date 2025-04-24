@@ -3783,29 +3783,110 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Skokas, The Abominable High King" hidden="false" id="dbd4-b31f-2434-2aa0" collective="false">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="aeb4-96de-7401-eaa3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
-          <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9e38-aa05-8d08-e554" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
+    <selectionEntry type="upgrade" import="true" name="Skolas, The Abominable King" hidden="false" id="d97f-bcb8-2942-1276">
+      <comment>Model </comment>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lance of The King" hidden="false" id="b611-b6c2-9eec-6b14">
+          <profiles>
+            <profile name="➤ Lance of The King - Focused Hatred" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b2a9-de06-7457-5022">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3+1 </characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">24</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-6</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+8</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="➤ Lance of The King - Dispersed Hatred" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a224-4d7a-9720-5a67">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">16</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8778-befd-3b11-da2f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="550e-84ce-c623-0da2"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Unmaker Autocannon" hidden="false" id="27e2-e1a5-3057-a187">
+          <profiles>
+            <profile name="Unmaker Autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fb21-8f56-8b99-12e6">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Rapid Fire 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7795-0a59-c44f-15c6"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="40e7-53dd-7cba-2ea1"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Worldbreaker Mortar" hidden="false" id="b7cf-db62-772f-a625">
+          <profiles>
+            <profile name="Worldbreaker Mortar" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c1a0-566a-f452-c33a">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3+2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, indirect fire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ecc-b7e4-2a60-3b70"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e997-7629-eadb-2dd4"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fist of Oblivion" hidden="false" id="6cf1-f57c-80f2-d286">
+          <profiles>
+            <profile name="➤ Fist of Oblivion - Strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3dc3-94b2-ac93-548a">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">20</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">8</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+            <profile name="➤ Fist of Oblivion - Sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="dd65-2135-44a8-572e">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">12</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2094-bc40-c65c-98f6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa22-51e9-b99c-9aef"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
       <profiles>
-        <profile name="Skolas the high king" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d4ae-88c0-a665-6aad">
+        <profile name="Skolas, The Abominable King" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5e33-f7d1-70f9-fe6e">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
@@ -3815,96 +3896,55 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">10</characteristic>
           </characteristics>
         </profile>
-        <profile name="Infernal Aegis (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a696-b003-91a9-8c9e">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly WAR DOG model is within 6&quot; of this model, that WAR DOG model has the Benefit of Cover.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="High King of House Fireborn" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4141-79b7-2d3f-a0f0">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battleround, select one of the High King of House Fireborn abilities, until the start of the next battleround, this unit has that ability.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Invulnerable Save 5+*" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b014-8746-cd12-44c1">
+        <profile name="Invulnerable Save 5+*" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="020f-9d75-3b55-2844">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks.</characteristic>
           </characteristics>
         </profile>
+        <profile name="High King of House Fireborn" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="825f-4cfd-26cc-c734">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the Start of each Battleground, you may pick one of the High King of house fireborn abilities, Until the end of the battleground, this model has that ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Emperor of Oblivion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8726-b6e8-cf1e-c0ef">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be selected to shoot and charge, even in a turn in which it fell back. Each time this model is selected as the target of a stratagem, you must spend twice the listed Cp cost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Phoenix of Depravity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d49-2962-e277-7ac8">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">friendly models within 9&quot; of this model regain D3+1 wounds at the start of the command phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ruthless Inspiration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="067f-d6ab-c474-dd98">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a friendly unit within 3&quot; is selected as the target of enemy attacks, roll a d6, adding 1 to the result if the targeted model is Skolas. on a 4+ generate a cp.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Unrestrained Brutality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="185a-b921-3b4f-b8ed">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each model within 6&quot; of this unit can pick an enemy unit that does not have the Monster / Vehicle keywords that they Successfully hit with a ranged attack to be &apos;Brutalised&apos;. Whilst an enemy unit is &apos;Brutalised&apos; subtract 2 from the movement characteristic of models in that unit, and charge rolls made for that unit.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
-      <infoLinks>
-        <infoLink name="Super-Heavy Walker" id="e4e6-59b3-d84a-48a8" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
-        <infoLink name="Deadly Demise" id="f103-f5a6-9760-282f" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
-          <modifiers>
-            <modifier type="append" value="D6+2" field="name"/>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Forged in Terror (Aura)" id="be0d-939b-5c24-637d" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink name="Monoliths of Madness" id="a54f-43b8-ce3a-dbf6" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
-        <infoLink name="Damaged: 1-8 wounds remaining" id="e26c-fd2f-9689-876c" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
-        <infoLink name="Dreaded Masters" id="7d54-9a5e-46b4-2bd6" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
-        <infoLink name="Slaughtering Stompers" id="0f92-ca37-7cc7-dec8" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Faction: Chaos Knights" hidden="false" id="a563-07d8-e073-752a" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink name="Vehicle" hidden="false" id="f729-111b-9663-8477" targetId="dbd4-63-af05-998" primary="false"/>
-        <categoryLink name="Walker" hidden="false" id="de91-e4e1-004f-e434" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink name="Titanic" hidden="false" id="1bb6-0b71-98fa-c418" targetId="5929-ad51-d006-e008" primary="false"/>
-        <categoryLink name="Towering" hidden="false" id="ce0e-bfa7-dd01-b7ce" targetId="d666-e2c9-b6cc-5716" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="a7a9-46ac-7c49-caa2" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
-        <categoryLink name="Chaos" hidden="false" id="d770-cb07-28f8-8bb4" targetId="4c00-2578-faf5-6918" primary="false"/>
-        <categoryLink name="Knight Tyrant" hidden="false" id="a935-00af-f142-7e41" targetId="552f-2667-65a7-f914" primary="false"/>
-        <categoryLink name="Abhorrent" hidden="false" id="7b02-3ff2-f62a-b3db" targetId="f2d9-b5e8-4183-cb0b" primary="false"/>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="a5d2-603d-235e-bcf6" primary="true" name="Epic Hero"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Titanic feet" hidden="false" id="1d12-4148-38d5-adda" collective="false">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63d9-423a-b1bc-106b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e14-a9b9-3f97-e90c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Titanic feet" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="bf89-a1e1-7512-05ec">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Main weapons" id="ee0d-18ec-0f34-7268" hidden="false" collective="false" import="true" defaultSelectionEntryId="0d51-1b09-1511-86e4">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b52e-86f6-068e-c6c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5f7-ce4b-9e2d-857e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Carapace weapons" id="cb29-013a-a2e8-5c61" hidden="false" collective="false" import="true" defaultSelectionEntryId="7264-ccf1-81a4-8cbe">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8a70-b6c8-bd6d-858a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="332b-dffa-faa5-e778" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="eb50-ee24-8dd8-7953" collective="false" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="0893-ced8-c773-e6e5" collective="false" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="480"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="700"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Monoliths of Madness" id="7b78-385f-3784-a3f9" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink name="Slaughtering Stompers" id="a7fd-9d1f-497b-211e" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
+        <infoLink name="Deadly Demise" id="273b-b95f-9283-eb59" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D6+2" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Super-Heavy Walker" id="4527-0141-f88c-7322" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
+        <infoLink name="Dreaded Masters" id="f2d2-1038-fa43-a9ab" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -4205,4 +4245,12 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
       </characteristics>
     </profile>
   </sharedProfiles>
+  <profileTypes>
+    <profileType name="High King of House Fireborn" id="33a0-1078-4d87-c606" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Effect" id="6f5a-cc94-3e7a-9a34"/>
+      </characteristicTypes>
+      <comment>Ability</comment>
+    </profileType>
+  </profileTypes>
 </catalogue>
