@@ -132,12 +132,12 @@
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="89b5-60c6-7bb6-d021" name="Chaos Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="e289-ad32-c78a-e055" type="selectionEntry"/>
-    <entryLink id="1e67-5742-99cf-aed4" name="Chaos Acastus Knight Porphyrion" hidden="false" collective="false" import="true" targetId="fe77-6f85-5ddb-65bf" type="selectionEntry"/>
-    <entryLink id="a0ec-633-123f-32d2" name="Chaos Cerastus Knight Acheron" hidden="false" collective="false" import="true" targetId="ec6e-d1d6-f7c6-d008" type="selectionEntry"/>
-    <entryLink id="1915-5cea-2b22-8805" name="Chaos Cerastus Knight Atrapos" hidden="false" collective="false" import="true" targetId="8b1d-9029-f9e1-42d9" type="selectionEntry"/>
-    <entryLink id="8996-bc14-504-f902" name="Chaos Cerastus Knight Castigator" hidden="false" collective="false" import="true" targetId="b6e5-911b-93f-476" type="selectionEntry"/>
-    <entryLink id="a606-abf1-4103-623" name="Chaos Cerastus Knight Lancer" hidden="false" collective="false" import="true" targetId="4175-82c6-8e96-bef8" type="selectionEntry"/>
+    <entryLink id="89b5-60c6-7bb6-d021" name="Acastus Asterius" hidden="false" collective="false" import="true" targetId="e289-ad32-c78a-e055" type="selectionEntry"/>
+    <entryLink id="1e67-5742-99cf-aed4" name="Acastus Porphyrion" hidden="false" collective="false" import="true" targetId="fe77-6f85-5ddb-65bf" type="selectionEntry"/>
+    <entryLink id="a0ec-633-123f-32d2" name="Cerastus Acheron" hidden="false" collective="false" import="true" targetId="ec6e-d1d6-f7c6-d008" type="selectionEntry"/>
+    <entryLink id="1915-5cea-2b22-8805" name="Cerastus Atrapos" hidden="false" collective="false" import="true" targetId="8b1d-9029-f9e1-42d9" type="selectionEntry"/>
+    <entryLink id="8996-bc14-504-f902" name="Cerastus Castigator" hidden="false" collective="false" import="true" targetId="b6e5-911b-93f-476" type="selectionEntry"/>
+    <entryLink id="a606-abf1-4103-623" name="Cerastus Lancer" hidden="false" collective="false" import="true" targetId="4175-82c6-8e96-bef8" type="selectionEntry"/>
     <entryLink id="5a2c-b554-1672-2893" name="Knight Magaera" hidden="false" collective="false" import="true" targetId="2d0e-5b83-b678-56dc" type="selectionEntry"/>
     <entryLink id="487c-5155-cdaf-2353" name="Knight Styrix" hidden="false" collective="false" import="true" targetId="106c-4bdf-79a4-1c70" type="selectionEntry"/>
     <entryLink id="b75d-f257-dbe-e1f2" name="Knight Abominant" hidden="false" collective="false" import="true" targetId="a78d-828b-302b-1bec" type="selectionEntry"/>
@@ -205,14 +205,14 @@
         </infoLink>
         <infoLink id="4c84-8a9e-3fbc-3de8" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="4f22-0266-8f95-e3c5" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="ee05-6f4a-b0b2-200b" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="ee05-6f4a-b0b2-200b" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="2693-6ee8-4245-05b1" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="eafb-d2b8-44cd-2f9b" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="d0b7-c48f-8d09-2a80" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0368-0a60-e34a-3438" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="36b0-6d3c-5d21-28f3" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="36b0-6d3c-5d21-28f3" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="b8e4-40f2-6789-53d0" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="223f-f780-9db0-d39a" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="0a45-b4a0-05b4-8755" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
@@ -554,7 +554,7 @@
         </infoLink>
         <infoLink id="f5f5-6433-ddd6-23aa" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="da79-bd60-5dfd-b269" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="b065-8569-91d8-423a" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="b065-8569-91d8-423a" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="ae81-1607-e85d-8eac" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="f2ae-db36-0bf2-8b5a" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="3634-756d-fa88-a45e" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
@@ -566,7 +566,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4336-a70c-6d53-77c4" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="474d-a979-0984-a6a5" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="474d-a979-0984-a6a5" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="69b0-8bfd-4782-f891" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="3b5a-ef5c-24ad-af0d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6c1c-4c5a-6711-328d" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
@@ -667,7 +667,7 @@
         </infoLink>
         <infoLink id="928a-574c-f429-72f8" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="64ed-5c29-b545-9331" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="81c8-fc6f-d880-245b" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="81c8-fc6f-d880-245b" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="1bcd-189e-2953-6450" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="9a05-4de3-ab56-d2bb" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="621d-11c1-b1e0-1083" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
@@ -765,14 +765,14 @@
         </infoLink>
         <infoLink id="aaab-a55c-8c11-d7bf" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="aee6-49c4-bc25-5604" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="0b42-7bab-c9fa-55d2" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="0b42-7bab-c9fa-55d2" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="2141-5981-4957-bd62" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="50a3-769d-335f-3b78" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="0d3a-9924-4d19-56ae" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="de39-13fa-1218-2a8c" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="7df1-6e0b-8afc-20a4" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="7df1-6e0b-8afc-20a4" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="96e1-0018-ecf2-a9dd" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="b9f3-d53d-9289-c19d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="80f4-05e3-83ed-248f" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
@@ -864,14 +864,14 @@
         </infoLink>
         <infoLink id="ab81-818e-ca5f-92a5" name="Damaged: 1-4 wounds remaining" hidden="false" targetId="97fd-09c5-60a8-63c4" type="profile"/>
         <infoLink id="78a0-b80d-77ba-2b0a" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="6477-6d84-788a-83a9" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="6477-6d84-788a-83a9" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="5283-ceda-8c1d-2891" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="1087-3c9f-c022-7583" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="7c6c-ec1f-e5ea-72b3" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e4bb-f359-72e7-530e" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="0423-e74f-cb59-5472" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="0423-e74f-cb59-5472" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="e391-f4d8-0acc-7f6e" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="880b-7c48-3878-9686" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="f05e-6435-e235-905a" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
@@ -967,7 +967,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="d2ff-d307-2481-1919" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="daaf-7ef7-c7cb-462b" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="daaf-7ef7-c7cb-462b" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="e4ea-9586-78bd-615b" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink id="3080-8a7c-8f59-9ec7" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="061e-cf16-b8f0-24ac" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
@@ -1397,7 +1397,7 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="053e-d6d6-3ef0-be8e" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="053e-d6d6-3ef0-be8e" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="ed66-ef4e-c2-b782" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink id="1fba-62e4-32a8-98b0" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink id="22a9-06ab-e7a1-1622" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
@@ -1541,7 +1541,7 @@
         </infoLink>
         <infoLink id="6ad4-77bf-0a46-8d85" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
         <infoLink id="38b5-9529-e9a2-13de" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="13cb-a4f0-dc88-7b1f" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="13cb-a4f0-dc88-7b1f" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="a17-18d3-8c51-c8b4" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink id="87cd-d7c3-ba34-88d2" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="31d1-b85c-8ae5-7333" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
@@ -1704,7 +1704,7 @@
             <modifier type="append" field="name" value="D6"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8b67-d967-873f-8919" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="8b67-d967-873f-8919" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="c9f9-667d-d596-a1d7" name="Damaged: 1-7 wounds remaining" hidden="false" targetId="12ce-2a62-9fea-74bd" type="profile"/>
         <infoLink id="5d0b-1173-096e-6381" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink id="9de4-e268-a344-f89d" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
@@ -1870,7 +1870,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="1fc4-e42d-700d-56e8" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="3e23-1899-b1ea-0d4f" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="3e23-1899-b1ea-0d4f" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="bd9f-efd3-8aee-df65" name="Damaged: 1-8 wounds remaining" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
         <infoLink id="c31e-30eb-c1d7-ba10" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="9652-1c80-0306-6ec3" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
@@ -2250,7 +2250,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="b70c-1bec-be44-d200" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="2b3-6e05-b3a3-4b04" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="2b3-6e05-b3a3-4b04" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="7536-4ece-da3f-ff96" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="9538-9dad-5e30-2c0" name="Damaged: 1-10 wounds remaining" hidden="false" targetId="7400-7387-dae-781f" type="profile"/>
         <infoLink id="3670-f4e7-5c6d-723b" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
@@ -2431,7 +2431,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="f498-59b2-69c-3679" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="93eb-c5b0-872e-cc77" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="93eb-c5b0-872e-cc77" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="a226-6784-bacd-ed18" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="cb05-d0d9-f524-bb83" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
       </infoLinks>
@@ -2637,7 +2637,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="456c-8e2e-7893-49e8" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="778c-9b9-8529-c419" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="778c-9b9-8529-c419" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="dc7b-e107-b327-4001" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="5598-cb70-e3d6-4b0d" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="f5f8-dade-d8c0-e88a" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
@@ -2768,7 +2768,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="d9de-9da5-5af-2833" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="a1c9-29ef-8029-36e9" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="a1c9-29ef-8029-36e9" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="a4a4-248c-a0c1-87d3" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="500-6af5-592-7e7" name="Damaged: 1-8 wounds remaining" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
         <infoLink id="fbe9-41de-0284-181a" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
@@ -2897,12 +2897,12 @@
         </profile>
         <profile id="87e2-fd19-7923-c24" name="Swallowing Promethium" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the turn, add 1 to charge rolls made against that unit, and whenever this unit targets that enemy unit with a melee weapon, that weapon has [Devastating wounds] </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the turn, add 1 to charge rolls made against that unit, and whenever this unit targets that enemy unit with a melee weapon, that weapon has [Devastating wounds]</characteristic>
           </characteristics>
         </profile>
         <profile id="fba5-f8cf-a268-d9d7" name="Unrestrained Terror" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the Charge phase, all enemy units within Dread Range of this model, must make a battleshock test. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the Charge phase, all enemy units within Dread Range of this model, must make a battleshock test.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2914,7 +2914,7 @@
         </infoLink>
         <infoLink id="a836-d284-5da1-45f2" name="Damaged: 1-8 wounds remaining" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
         <infoLink id="1d35-dc87-c8a8-752e" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="cc30-31f9-d62d-48b7" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="cc30-31f9-d62d-48b7" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="a431-ff8-a3f-a1a5" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="9201-64d7-cbb6-cfa6" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="f415-1544-1e62-3dca" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
@@ -2997,7 +2997,7 @@
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">20</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">8</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti Monster 5+, Anti Vehicle 5+ </characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti Monster 5+, Anti Vehicle 5+</characteristic>
               </characteristics>
             </profile>
             <profile id="59dc-5722-7844-79a6" name="➤ Reaper chainfist - sweep" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -3008,7 +3008,7 @@
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti Monster 5+, Anti Vehicle 5+ </characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti Monster 5+, Anti Vehicle 5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3081,7 +3081,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="3181-e9c6-2387-f471" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="881f-e74a-194a-d75d" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="881f-e74a-194a-d75d" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="8fb2-c7cc-fd8-f9ea" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="2049-df4b-5ed9-8b0a" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="169e-b941-a8c4-98a0" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
@@ -3263,7 +3263,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="cdef-5cd3-a6cc-fb49" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="e0f7-8e3e-7a32-51af" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="e0f7-8e3e-7a32-51af" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="c204-d4e2-a47e-ed16" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="e70d-97f1-3540-3e87" name="Huntmaster" hidden="false" targetId="73ac-6b3a-8480-d08a" type="profile"/>
         <infoLink id="e250-4a22-36c7-d7b9" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
@@ -3454,9 +3454,9 @@
           </modifiers>
         </infoLink>
         <infoLink id="f4b4-cbb5-aab-8ea7" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="82f0-908f-8f58-a62e" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="82f0-908f-8f58-a62e" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="5b52-a7e7-e494-ce42" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
-        <infoLink id="94fb-17fc-632c-965" name="Weak-Point Analysis" hidden="false" targetId="73ac-6b3a-8480-d08a" type="profile"/>
+        <infoLink id="94fb-17fc-632c-965" name="Huntmaster" hidden="false" targetId="73ac-6b3a-8480-d08a" type="profile"/>
         <infoLink id="b31f-ccde-54f7-cf53" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="cfc7-dbec-6842-5c14" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="f2e5-de59-7d76-31b1" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
@@ -3647,14 +3647,14 @@
           </modifiers>
         </infoLink>
         <infoLink id="367-dd97-8f07-852a" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-        <infoLink id="a2d6-de7b-4726-c5b1" name="Monoliths of Madness" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink id="a2d6-de7b-4726-c5b1" name="Kings of Carnage" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink id="f7f1-ad4c-5057-432e" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="d7ad-e994-1ce1-b9ee" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="d0e1-98b4-9bae-25f9" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4f5a-5d74-4b13-323a" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="648d-5e62-3f73-a541" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="648d-5e62-3f73-a541" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="3a45-b388-5145-4408" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="72c8-b011-37de-bdd3" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="9189-990d-17a7-6b60" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
@@ -3992,7 +3992,7 @@
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Monoliths of Madness" id="7b78-385f-3784-a3f9" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
+        <infoLink name="Kings of Carnage" id="7b78-385f-3784-a3f9" hidden="false" targetId="d71a-a59f-aafd-3723" type="rule"/>
         <infoLink name="Slaughtering Stompers" id="a7fd-9d1f-497b-211e" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
         <infoLink name="Deadly Demise" id="273b-b95f-9283-eb59" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
@@ -4288,7 +4288,7 @@
 all vices that are active for your army apply to this model, and this model can complete goals to earn Vice points. 
 
 
-(See Codex: Chaos Knights) </description>
+(See Codex: Chaos Knights)</description>
     </rule>
     <rule id="36df-7a0b-e5b7-5f29" name="Dreaded Masters" hidden="false">
       <modifiers>
@@ -4396,7 +4396,7 @@ some abilities reference dread range to determine their functional range, the ef
 if your army faction is Chaos Knights, the following rule applies: 
 
 
-Enemy units in Dread range that make leadership tests and battle shock tests must subtract 1 from that roll. If the model is an Abhorrent, subtract 2 from that test instead. </characteristic>
+Enemy units in Dread range that make leadership tests and battle shock tests must subtract 1 from that roll. If the model is an Abhorrent, subtract 2 from that test instead.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
