@@ -1135,7 +1135,11 @@
         <entryLink id="bcb6-035f-779e-0685" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="285"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5eca-c264-36cf-172e" name="Reaper chainsword" hidden="false" collective="false" import="true" type="upgrade">
@@ -1481,7 +1485,11 @@
         <entryLink id="2d17-c6a6-2772-8994" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="320"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="270"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61e0-e55b-1926-44df" name="Knight Rampager" hidden="false" collective="false" import="true" type="model">
@@ -1637,7 +1645,7 @@
         <entryLink id="dfda-8ea5-fe54-a08d" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="345"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="330"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1811,7 +1819,11 @@
         <entryLink id="5568-df88-d09e-d873" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="285"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87ea-c7bd-6df0-f056" name="Knight Tyrant" hidden="false" collective="false" import="true" type="model">
@@ -2077,7 +2089,7 @@
         <entryLink id="6ea7-07d2-808c-044a" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="450"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="375"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -2641,6 +2653,7 @@
         <infoLink id="dc7b-e107-b327-4001" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="5598-cb70-e3d6-4b0d" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="f5f8-dade-d8c0-e88a" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
+        <infoLink name="Slaughtering Stompers" id="b807-bdab-2097-ae69" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5adc-d1eb-a5a2-53a" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
@@ -2710,7 +2723,11 @@
         <entryLink id="6d86-e945-7080-e219" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="420"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="390"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b6e5-911b-93f-476" name="Cerastus Castigator" hidden="false" collective="false" import="true" type="model">
@@ -2773,6 +2790,7 @@
         <infoLink id="500-6af5-592-7e7" name="Damaged: 1-8 wounds remaining" hidden="false" targetId="668-138f-bf96-9619" type="profile"/>
         <infoLink id="fbe9-41de-0284-181a" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="17d6-106b-5f62-f3cb" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
+        <infoLink name="Slaughtering Stompers" id="e062-15f0-f664-c7c6" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e9bd-c4f0-8f88-27f7" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
@@ -2855,7 +2873,11 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="445"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="360"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec6e-d1d6-f7c6-d008" name="Cerastus Acheron" hidden="false" collective="false" import="true" type="model">
@@ -2918,6 +2940,7 @@
         <infoLink id="a431-ff8-a3f-a1a5" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="9201-64d7-cbb6-cfa6" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="f415-1544-1e62-3dca" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
+        <infoLink name="Slaughtering Stompers" id="7307-9b98-667b-332b" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b055-b7d-faaf-c582" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
@@ -3022,7 +3045,11 @@
         <entryLink id="12be-1b78-dc24-7226" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="420"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="385"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b1d-9029-f9e1-42d9" name="Cerastus Atrapos" hidden="false" collective="false" import="true" type="model">
@@ -3085,6 +3112,7 @@
         <infoLink id="8fb2-c7cc-fd8-f9ea" name="Super-Heavy Walker" hidden="false" targetId="5e13-1624-d280-418d" type="rule"/>
         <infoLink id="2049-df4b-5ed9-8b0a" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
         <infoLink name="Tyrants of Dread (Aura)" id="169e-b941-a8c4-98a0" hidden="false" type="profile" targetId="edde-5cfd-73b2-fc5e"/>
+        <infoLink name="Slaughtering Stompers" id="964c-6b39-b1cc-87cd" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f657-d8f9-c130-8534" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
@@ -3205,7 +3233,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="460"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="410"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -3396,7 +3424,7 @@
         <entryLink id="6f91-415a-2532-103f" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="335"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="290"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -3430,7 +3458,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2f08-fd49-520d-c001" name="Grav-pinned" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="2f08-fd49-520d-c001" name="Gravity Crush" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">when targeting enemy INFANTRY units, this model counts that targets model count as 5 higher for the purposes of determining blast. When targeting enemy INFANTRY units, add 1 to the ap and damage characteristics of this model&apos;s Graviton Crusher.</characteristic>
           </characteristics>
@@ -3589,7 +3617,7 @@
         <entryLink id="df6c-95aa-c1b3-f41a" name="Warlord" hidden="false" collective="false" import="true" targetId="3bee-8c85-68f7-e54b" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="330"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="290"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
