@@ -258,7 +258,7 @@
         <entryLink id="df42-5d71-b03d-14d3" name="Armoured feet" hidden="false" collective="false" import="true" targetId="6638-278a-5331-d1ff" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -609,7 +609,7 @@
         <entryLink id="e26d-a244-a6fb-bce1" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -674,7 +674,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e723-2423-466a-923e" name="Faction: Chaos Knights" hidden="false" targetId="bb67-f191-6562-acc7" primary="false"/>
-        <categoryLink id="529f-468f-5f49-a684" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink id="529f-468f-5f49-a684" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="ae5a-779f-a067-03a4" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="07cf-1000-c46c-1fce" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6023-5063-8842-2df6" name="War Dog" hidden="false" targetId="99dc-0f47-85e2-75da" primary="false"/>
@@ -707,7 +707,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -806,7 +806,7 @@
         <entryLink id="151e-e8b6-67f1-ec9f" name="Armoured feet" hidden="false" collective="false" import="true" targetId="6638-278a-5331-d1ff" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1135,7 +1135,7 @@
         <entryLink id="bcb6-035f-779e-0685" name="Enhancements" hidden="false" collective="false" import="true" targetId="18da-1609-c0fb-cf69" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="285"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1429,7 +1429,7 @@
             <profile id="54d1-9fb5-ea42-08c6" name="Desecrator laser destructor" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">18</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
@@ -2368,6 +2368,10 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="765"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28a-8545-4104-4ffa" name="Titanic feet" hidden="false" collective="false" import="true" type="upgrade">
@@ -2952,6 +2956,7 @@
         <categoryLink id="8d42-b509-2bb3-25fb" name="Cerastus" hidden="false" targetId="b6d3-1a49-8a2a-b157" primary="false"/>
         <categoryLink id="a919-6426-38d8-76bf" name="Knight Acheron" hidden="false" targetId="584e-5840-20b0-1646" primary="false"/>
         <categoryLink name="Abhorrent" hidden="false" id="7efb-c0b0-0037-1c5b" targetId="f2d9-b5e8-4183-cb0b" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="5f03-2dff-3755-e339" targetId="4c00-2578-faf5-6918" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="eab7-2fd-1641-4f4" name="Acheron flame cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3849,7 +3854,7 @@
         <entryLink id="a67b-c001-46f-8ae3" name="Armoured feet" hidden="false" collective="false" import="true" targetId="6638-278a-5331-d1ff" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="175"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
