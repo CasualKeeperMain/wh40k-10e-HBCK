@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8106-aad2-918a-9ac" name="Chaos - Chaos Knights Library homebrew" revision="27" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="8106-aad2-918a-9ac" name="Chaos - Chaos Knights Library homebrew" revision="28" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="99dc-0f47-85e2-75da" name="War Dog" hidden="false">
       <modifiers>
@@ -2173,22 +2173,6 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c582-1a3f-6783-fcb8" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="603e-6bcd-927f-cb70" name="Traitoris Lance" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="4ead-25fd-7f6c-baaf" name="Forged in Terror (Aura)" hidden="false" targetId="35e8-bc32-021c-4ab7" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7fe8-de91-8976-e705" name="Iconoclast Fiefdom" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="0ad2-fa15-d9a1-8960" name="Dreaded Masters" hidden="false" targetId="36df-7a0b-e5b7-5f29" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="30a4-82ea-8515-e3c1" name="March of the Dreadhorns" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="d822-cacf-3455-a239" name="Slaughtering Stompers" hidden="false" targetId="0d54-8334-015b-6234" type="rule"/>
@@ -2204,6 +2188,70 @@
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Houndpack Lance" hidden="false" id="6cb5-45cf-c626-fa86">
+              <rules>
+                <rule name="Marked Prey" id="012f-2864-25e8-4ff6" hidden="false">
+                  <description>At the start of your Command phase, select one unit from your opponent&apos;s army. Until the start of your next Command phase, each time a ^^**War Dog^^** model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.
+
+
+**Keywords**
+While using the Houndpack Lance Detachment, the following rules apply:
+
+
+- Your army must include 3 or more ^^**War Dog^^** units.
+- ^^**War Dog^^** units from your army have the ^^**Battleline^^** keyword.
+- When mustering your army, select 3 ^^**War Dog^^** units from your army. Until the end of the battle, those units have the ^^**Character^^** keyword.*
+
+
+*** Designer&apos;s Note:** *This means that the selected units can be given Enhancements and one of them can be selected as your* ^^**Warlord^^**.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Iconoclast Fiefdom" hidden="false" id="7fe8-de91-8976-e705">
+              <rules>
+                <rule name="Dreaded Masters" id="8ea7-beff-1b74-d3b2" hidden="false">
+                  <description>TITANIC CHAOS KNIGHTS units from your army have the following abilities: 
+
+Dread Tyrants (Aura): While a friendly DAMNED unit is within 9&quot; of this unit, each time a model in that unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. 
+
+CHAOS KNIGHTS units from your army have the following abilities: 
+
+Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6&quot;. That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your Chaos Knights unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Infernal Lance" hidden="false" id="812b-f056-ec50-2c3c">
+              <rules>
+                <rule name="Malefic Surge" id="b671-ba7f-7668-9c08" hidden="false">
+                  <description>In your Command phase, one or more ^^**Chaos Knights^^** units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered, it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.
+
+
+- **Unholy Hunger:** When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3&quot; to its Move characteristic.
+- **Diabolic Power:** When this unit is selected to shoot or fight, select either the [Lethal Hits] or [Sustained Hits 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.
+- **Unnatural Fortitude:** When this unit is selected as the target of an attack, until the end of the phase, models in this unit have a 5+ invulnerable save and the Feel No Pain 6+ ability.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lords of Dread" hidden="false" id="e5ab-9622-8b2a-84d0">
+              <rules>
+                <rule name="Tyrannical Court" id="3a52-269a-4a26-f018" hidden="false">
+                  <description>Improve the Objective Control characteristic of ^^**Chaos Knight Character^^** models from your army by 2. In addition, once per battle round, if your ^^**Warlord^^** is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP.</description>
+                </rule>
+              </rules>
+              <modifiers>
+                <modifier type="increment" value="2" field="bef7-942a-1a23-59f8" affects="self.entries.9cfd-1c32-585f-7d5c.profiles.Unit" scope="force"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Traitoris Lance" hidden="false" id="603e-6bcd-927f-cb70" collective="false">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <rules>
+                <rule name="Paragons of Terror" id="d6b0-94f1-ee06-6fa3" hidden="false">
+                  <description>At the start of the first battle round, after selecting one or more Dread abilities to be active for your army, you can select one additional Dread ability to be active for your army (this additional Dread ability cannot be randomly selected).</description>
+                </rule>
+              </rules>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4084,182 +4132,6 @@
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="852b-8a29-1fc7-ebc9" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ffa9-e86a-6f79-c949" name="Lord of Dread" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="603e-6bcd-927f-cb70" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c311-f705-e821-9436" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ea44-505d-1519-fd1d" name="Lord of Dread" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that enemy unit must take a Battle-shock test.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e0b6-0e8d-ba3e-cfcf" name="Profane Altar" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fe8-de91-8976-e705" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86fb-fc36-359b-221f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="bcb3-c4d1-dee5-3b9d" name="Profane Altar" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1].</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d1ba-fbad-1b6b-3567" name="The Traitor&apos;s Mark" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="603e-6bcd-927f-cb70" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c66-9cbb-8593-f321" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="be11-dfc5-c59f-16d1" name="The Traitor&apos;s Mark" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. In your Movement phase, select one enemy unit within 12&quot; of the bearer. That enemy unit must take a Battle‑shock test.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6e61-530c-d0b5-486c" name="Panoply of the Cursed Knights" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="603e-6bcd-927f-cb70" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8113-eafd-c2f5-c4b7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="b263-32e3-5af5-2643" name="Panoply of the Cursed Knights" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. Each time an attack is made against the bearer, subtract 1 from the Armour Penetration  characteristic of that attack.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c186-769a-41a4-21d7" name="Aura of Terror" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="603e-6bcd-927f-cb70" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ac3-41cd-b72e-2133" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="23e6-4a34-e2f6-b081" name="Aura of Terror" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CHAOS KNIGHTS model only. If you control an objective marker at the end of your Command phase, and the bearer is within range of that objective marker, that objective marker is said to be Tainted and remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, while an objective marker is Tainted and under your control, that objective marker has the Despair Dread ability as if it was a CHAOS KNIGHTS model from your army (so subtract 1 from Battle-shock and Leadership tests taken for enemy units within 12&quot; of it).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="80fb-b674-d736-1ca7" name="Pave The Way" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fe8-de91-8976-e705" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7def-ccdf-8872-0c85" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0001-e913-205a-f146" name="Pave The Way" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6&quot; ability.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="654b-0d6d-9895-ab98" name="Tyrant&apos;s Banner" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fe8-de91-8976-e705" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4380-f40f-18eb-8d5a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7d5d-45a9-73c5-869e" name="Tyrant&apos;s Banner" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6&quot;.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="06cd-7848-7124-ca3c" name="Diabolical Resilience" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fe8-de91-8976-e705" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="422a-b524-4baa-e200" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2e5f-1c75-2b49-85f3" name="Diabolical Resilience" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Apostate of Hate" hidden="false" id="efc2-a7d3-6902-f3b4">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="73d5-fd76-10a6-1d58" includeChildSelections="true"/>
@@ -4285,6 +4157,7 @@
               </conditions>
             </modifier>
           </modifiers>
+          <comment>March of the Dreadhorns</comment>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Superheated Reactor" hidden="false" id="6a1c-c07d-9942-2893">
           <constraints>
@@ -4311,6 +4184,612 @@
               </conditions>
             </modifier>
           </modifiers>
+          <comment>March of the Dreadhorns
+
+</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Final Howl (Aura)" hidden="false" id="42e1-e706-eb89-6cb6">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6cb5-45cf-c626-fa86" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="99dc-0f47-85e2-75da" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Final Howl (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1a7-7e92-ea7e-9e9a">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**War Dog^^** model is within 6&quot; of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Houndpack Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Loping Predator" hidden="false" id="64b1-051f-daf5-e148">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6cb5-45cf-c626-fa86" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="99dc-0f47-85e2-75da" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Assault" field="7f1b-8591-2fcf-d01c" scope="parent" affects="self.entries.profiles.Ranged Weapons" join=", "/>
+          </modifiers>
+          <profiles>
+            <profile name="Loping Predator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6871-9f72-fab6-7543">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer&apos;s ranged weapons have the [Assault] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Houndpack Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Panoply of the Cursed Knights" hidden="false" id="fb26-6d89-aa65-fb7e">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6cb5-45cf-c626-fa86" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="99dc-0f47-85e2-75da" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Panoply of the Cursed Knights" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa94-a50a-bf65-10c7">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack targets the bearer, worsen the Armour Penetration characteristic of that attack by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Houndpack Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Preyslayer&apos;s Mantle" hidden="false" id="433a-6769-0b68-fef3">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="6cb5-45cf-c626-fa86" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="99dc-0f47-85e2-75da" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Super-Heavy Walker" id="e695-a14c-5a20-5840" hidden="false" type="rule" targetId="5e13-1624-d280-418d"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Preyslayer&apos;s Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="549c-05a7-e58b-f155">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the Super-Heavy Walker ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Houndpack Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bestial Aspect" hidden="false" id="4ff3-7dce-5a52-94e9">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="812b-f056-ec50-2c3c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Assault" field="7f1b-8591-2fcf-d01c" scope="parent" affects="self.entries.profiles.Ranged Weapons" join=", "/>
+          </modifiers>
+          <profiles>
+            <profile name="Bestial Aspect" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be96-871b-e445-b467">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer&apos;s ranged weapons have the [Assault] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Infernal Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blasphemous Engine" hidden="false" id="c799-77ce-c706-3079">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="812b-f056-ec50-2c3c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="750a-a2ec-90d3-21fe" scope="parent" affects="self.entries.profiles.Unit"/>
+          </modifiers>
+          <profiles>
+            <profile name="Blasphemous Engine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70b1-cb34-0676-3c6a">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2 to the bearer&apos;s Wounds characteristic. Each time the bearer&apos;s unit makes a Malefic Surge, you can re-roll the Leadership test taken to see if it suffers any mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Infernal Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fleshmetal Fusion" hidden="false" id="27b4-53af-ee1b-688a">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="812b-f056-ec50-2c3c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="d29d-cf75-fc2d-34a4" scope="parent" affects="self.entries.profiles.Unit"/>
+          </modifiers>
+          <profiles>
+            <profile name="Fleshmetal Fusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="41c9-1420-19bf-0c45">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 1 to the bearer&apos;s Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Infernal Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Knight Diabolus" hidden="false" id="4676-0c32-b62c-debd">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="812b-f056-ec50-2c3c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="95d1-95f-45b4-11d6" scope="parent" affects="self.entries.profiles.Melee Weapons"/>
+          </modifiers>
+          <profiles>
+            <profile name="Knight Diabolus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="128b-1d2f-6361-b2d3">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Improve the Weapon Skill characteristic of the bearer&apos;s melee weapons by 1. While the bearer is using the Diabolic Power ability, its melee weapons have the [Lance] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Infernal Lance</comment>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Diabolical Resilience" hidden="false" id="a54d-435a-48cf-f169" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="93b1-c563-1fb6-d7f5" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Diabolical Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e48a-f644-e4a5-217a">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="7fe8-de91-8976-e705" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Iconoclast Fiefdom</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pave The Way" hidden="false" id="3555-a749-375a-9c83" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8c43-c285-b32c-0a57" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Pave The Way" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b5dd-cedf-1d4d-84b6">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6&quot; ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="7fe8-de91-8976-e705" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Iconoclast Fiefdom</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Profane Altar" hidden="false" id="9f3e-fdf6-c9b8-41c1" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ac1e-09a2-217c-bde2" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Profane Altar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2334-6f31-243d-d718">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1].</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="7fe8-de91-8976-e705" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Iconoclast Fiefdom</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tyrant&apos;s Banner" hidden="false" id="5687-bd0d-1d57-477b" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5873-362c-baeb-82ca" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Tyrant&apos;s Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2aec-291a-dafb-9ed8">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6&quot;.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="7fe8-de91-8976-e705" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Iconoclast Fiefdom</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blade of Celerity" hidden="false" id="ebcd-5b08-117d-1afc">
+          <comment>Lords of Dread</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="e5ab-9622-8b2a-84d0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Assault" field="7f1b-8591-2fcf-d01c" scope="parent" affects="self.entries.profiles.Ranged Weapons" join=", "/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2bca-96d1-5a8a-625e" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Blade of Celerity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f34f-8bd9-1162-9fb1">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer&apos;s ranged weapons have the [Assault] ability. In addition, once per battle, in the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer&apos;s unit have the Fights First ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blessing of the Dark Master" hidden="false" id="fe66-2b8b-6ded-dd43">
+          <comment>Lords of Dread</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="e5ab-9622-8b2a-84d0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4f56-0344-d38b-c1a4" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Blessing of the Dark Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="625f-a2b7-5cfc-e60d">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mirror of Fates" hidden="false" id="f36a-acd9-06f2-33f4">
+          <comment>Lords of Dread</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="e5ab-9622-8b2a-84d0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1f0e-9593-5f83-eed7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Mirror of Fates" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a8a-7965-4430-f43c">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, you can target the bearer with the Command Re-roll Stratagem for 0CP, and can do so even if another unit from your army has already been targeted by that Stratagem this phase. In addition, once per battle, just after your opponent uses a Stratagem, if the bearer is on the battlefield, it can use this Enhancement. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Putrid Carapace" hidden="false" id="3de9-689b-62a5-3cac">
+          <comment>Lords of Dread</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="e5ab-9622-8b2a-84d0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="450-a17e-9d5e-29da" scope="parent" affects="self.entries.profiles.Unit"/>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c334-7f47-5b40-64a4" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Putrid Carapace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0ca8-e1b5-921a-e99a">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player&apos;s Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Throne Mechanicum of Skulls" hidden="false" id="4982-b6dd-5bd6-d402">
+          <comment>Lords of Dread</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="e5ab-9622-8b2a-84d0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3d9d-3ba4-fb8f-e48d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Throne Mechanicum of Skulls" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9230-8299-9b67-4ccf">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll Charge rolls made for the bearer&apos;s unit. In addition, once per battle, in your Charge phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer&apos;s unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warp-borne Stalker" hidden="false" id="0691-638b-52ed-33a7">
+          <comment>Lords of Dread</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="e5ab-9622-8b2a-84d0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f07b-e2e5-5685-adfd" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Warp-borne Stalker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e0b-38ac-7e6c-22eb">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the Deep Strike ability. In addition, once per battle, at the end of your opponent&apos;s turn, if the bearer is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Deep Strike" id="0f65-9708-7401-d65d" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Malevolent Heraldry" hidden="false" id="743a-03a5-eff9-998a" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="996d-a269-be4d-ea01" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Malevolent Heraldry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e845-7746-0eab-2629">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you roll dice to randomly select which Dread abilities are active for your army, if the bearer is on the battlefield, you can re-roll one or both results rolled.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Traitoris Lance</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Nightmare&apos;s Master" hidden="false" id="11e5-65a5-1c58-da13" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="712b-9428-cd5c-7b46" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Nightmare&apos;s Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2d1-b035-a53b-6a70">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Traitoris Lance</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tyrant&apos;s Shadow" hidden="false" id="6e61-530c-d0b5-486c" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8113-eafd-c2f5-c4b7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Tyrant&apos;s Shadow" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b263-32e3-5af5-2643">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, select one objective marker the bearer is in range of and that you control. That objective marker remains under your control until your opponent&apos;s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a ^^**Chaos Knights^^** model from your army.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Traitoris Lance</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Veil of Medrengard" hidden="false" id="7fb6-a0b3-8055-83d5" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3880-3fcb-a328-5fd9" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Veil of Medrengard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="281c-65f9-9edc-add4">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a 4+ invulnerable save against ranged attacks, and a 5+ invulnerable save against melee attacks.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="603e-6bcd-927f-cb70" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Traitoris Lance</comment>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
