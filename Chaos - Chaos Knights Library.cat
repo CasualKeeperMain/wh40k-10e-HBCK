@@ -155,6 +155,8 @@
     <entryLink id="ac91-fe54-bd09-4145" name="War Dog Moirax" hidden="false" collective="false" import="true" targetId="ae7c-3679-a88-6895" type="selectionEntry"/>
     <entryLink id="6974-5c30-1291-f54d" name="War Dog Stalker" hidden="false" collective="false" import="true" targetId="bbc6-c0ed-24e8-86b7" type="selectionEntry"/>
     <entryLink import="true" name="Skolas, The Abominable King" hidden="false" id="0ec9-4466-f82a-619d" type="selectionEntry" targetId="d97f-bcb8-2942-1276"/>
+    <entryLink import="true" name="Litany of Destruction " hidden="false" id="6ddb-72b1-9582-7a3a" type="selectionEntry" targetId="1701-814e-3a08-0f06"/>
+    <entryLink import="true" name="Hatred Of Krastellan" hidden="false" id="0799-a548-dacb-ef08" type="selectionEntry" targetId="8d8e-5be8-460e-dd1f"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8df0-fc3c-8ced-ffce" name="War Dog Executioner" hidden="false" collective="false" import="true" type="model">
