@@ -4127,7 +4127,7 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7486-8384-61e1-e4b6" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Litany of Destruction " hidden="false" id="1701-814e-3a08-0f06">
+    <selectionEntry type="model" import="true" name="Litany of Destruction " hidden="false" id="1701-814e-3a08-0f06">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="360"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -4274,14 +4274,14 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a17d-bbab-e491-896c" includeChildSelections="true" includeChildForces="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Hatred Of Krastellan" hidden="false" id="8d8e-5be8-460e-dd1f">
+    <selectionEntry type="model" import="true" name="Hatred Of Krastellan" hidden="false" id="8d8e-5be8-460e-dd1f">
       <selectionEntryGroups>
         <selectionEntryGroup name="Melee Weapon" id="bfe1-89a7-58a3-971d" hidden="false">
           <profiles>
             <profile name="➤ The Crownbreaker - Strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="34bc-7fd5-e587-e0f9">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5 </characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">20</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
@@ -4343,7 +4343,7 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3 </characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4430,7 +4430,7 @@ Dark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sire Of Doom" hidden="false" id="421b-9e3a-f5eb-1ad9">
+    <selectionEntry type="model" import="true" name="Sire Of Doom" hidden="false" id="421b-9e3a-f5eb-1ad9">
       <categoryLinks>
         <categoryLink name="Epic Hero" hidden="false" id="1d8d-1d90-0713-b925" targetId="4f3a-f0f7-6647-348d" primary="true"/>
         <categoryLink name="Character" hidden="false" id="0eb2-bd34-8edd-1e7d" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
